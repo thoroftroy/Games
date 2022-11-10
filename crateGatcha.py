@@ -19,10 +19,30 @@ unlocked = ['Crate Bot MK1']
 def gatcha():
     #here we roll for a random bot
     checkUnlocked()
+    botType == random.randint(1,80)
+    if(botType == 1):
+        append(basic[random.randint(0,len(basic)-1)])
+    elif(botType == 2):
+        append(common[random.randint(0,len(common)-1)])
+    elif(botType == 3):
+        append(uncommon[random.randint(0,len(uncommon)-1)])
+    elif(botType == 4):
+        append(rare[random.randint(0,len(rare)-1)])
+    elif(botType == 5):
+        append(superRare[random.randint(0,len(superRare)-1)])
+    elif(botType == 6):
+        append(ultraRare[random.randint(0,len(ultraRare)-1)])
+    elif(botType == 7):
+        append(megaRare[random.randint(0,len(megaRare)-1)])
+    elif(botType == 8):
+        append(legendary[random.randint(0,len(legendary)-1)])
+    elif(botType == 1):
+        append(mythical[random.randint(0,len(mythical)-1)])
     
     
 def checkUnlocked():
     #here we check for what bots are unlocked/maxed out. if they are maxed out then we don't want to "unlock" them agian.
+    print('I\'l make this later...')
     
 
 
